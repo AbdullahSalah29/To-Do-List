@@ -6,9 +6,9 @@ export default {
     },
     getters: {},
     mutations: {
-         addUser(s,user){
-            s.users.push(user)
-            console.log('add user mutation:',s.users)
+         addUser(state,user){
+            state.users.push(user)
+            console.log('add user mutation:',state.users)
         } 
     },
     actions: {
