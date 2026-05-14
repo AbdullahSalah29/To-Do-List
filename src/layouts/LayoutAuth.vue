@@ -1,19 +1,13 @@
 <template>
   <q-layout view="hHh lpR fFf">
     <q-page-container>
-      <task-header></task-header>
       <router-view />
     </q-page-container>
   </q-layout>
 </template>
 
 <script>
- import TaskHeader from 'src/components/TaskHeader.vue';
 export default {
-  name: "MainLayout",
-
-  components:{
-    TaskHeader
-  }
+  name: "LayoutAuth"
 }
 </script>
